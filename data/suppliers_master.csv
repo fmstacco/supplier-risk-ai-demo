@@ -1,0 +1,61 @@
+supplier_id,supplier_name,country,region,distance_km,supplier_rating,years_relationship,annual_delays,quality_incidents_ppm
+S001,Supplier_S001,Poland,Europe,4392,88,13,0,1937
+S002,Supplier_S002,Ireland,Europe,4830,65,12,6,1856
+S003,Supplier_S003,United Kingdom,Europe,1734,98,10,10,240
+S004,Supplier_S004,Netherlands,Europe,4227,98,5,19,1544
+S005,Supplier_S005,India,Asia,6081,66,12,15,1693
+S006,Supplier_S006,France,Europe,2402,92,6,16,1396
+S007,Supplier_S007,France,Europe,3448,76,8,11,1640
+S008,Supplier_S008,France,Europe,3738,83,5,2,1676
+S009,Supplier_S009,Czech Republic,Europe,5100,77,5,8,893
+S010,Supplier_S010,Poland,Europe,3727,91,3,20,80
+S011,Supplier_S011,Singapore,Asia,7395,99,15,0,912
+S012,Supplier_S012,Spain,Europe,3342,91,3,18,403
+S013,Supplier_S013,France,Europe,4395,97,2,14,227
+S014,Supplier_S014,Ireland,Europe,3856,97,15,5,249
+S015,Supplier_S015,Ireland,Europe,1910,63,9,16,1395
+S016,Supplier_S016,Spain,Europe,6888,70,7,17,1009
+S017,Supplier_S017,India,Asia,2430,88,12,0,1080
+S018,Supplier_S018,Poland,Europe,3039,83,6,2,1491
+S019,Supplier_S019,India,Asia,7948,62,2,13,1097
+S020,Supplier_S020,Germany,Europe,9493,63,11,20,1260
+S021,Supplier_S021,Germany,Europe,6741,80,3,0,172
+S022,Supplier_S022,China,Asia,9171,84,9,13,1703
+S023,Supplier_S023,Germany,Europe,8556,66,15,2,898
+S024,Supplier_S024,Ireland,Europe,4861,66,15,13,310
+S025,Supplier_S025,Spain,Europe,7725,65,6,13,1627
+S026,Supplier_S026,India,Asia,3350,82,12,1,1469
+S027,Supplier_S027,United States,North America,4658,60,10,14,106
+S028,Supplier_S028,Germany,Europe,5400,82,8,18,386
+S029,Supplier_S029,China,Asia,9608,79,3,18,31
+S030,Supplier_S030,China,Asia,8500,78,6,0,541
+S031,Supplier_S031,China,Asia,4943,87,10,5,200
+S032,Supplier_S032,India,Asia,6560,80,15,5,1420
+S033,Supplier_S033,France,Europe,2103,89,1,9,1045
+S034,Supplier_S034,Singapore,Asia,8063,90,11,3,1961
+S035,Supplier_S035,Italy,Europe,5575,96,13,17,1499
+S036,Supplier_S036,China,Asia,5373,91,15,16,1223
+S037,Supplier_S037,Czech Republic,Europe,7686,80,7,16,1019
+S038,Supplier_S038,Mexico,North America,6365,79,2,4,109
+S039,Supplier_S039,Czech Republic,Europe,817,69,5,0,140
+S040,Supplier_S040,Czech Republic,Europe,2952,83,13,19,1233
+S041,Supplier_S041,Czech Republic,Europe,1849,65,14,6,8
+S042,Supplier_S042,Mexico,North America,7375,97,10,13,84
+S043,Supplier_S043,Mexico,North America,447,93,2,19,438
+S044,Supplier_S044,Germany,Europe,2103,64,2,0,1769
+S045,Supplier_S045,China,Asia,6014,91,8,0,918
+S046,Supplier_S046,Poland,Europe,6978,64,9,0,1419
+S047,Supplier_S047,Italy,Europe,5082,88,1,3,823
+S048,Supplier_S048,Poland,Europe,8621,63,11,1,346
+S049,Supplier_S049,Singapore,Asia,9197,79,9,17,742
+S050,Supplier_S050,India,Asia,1407,86,1,12,183
+S051,Supplier_S051,China,Asia,9529,89,2,20,1541
+S052,Supplier_S052,United Kingdom,Europe,6182,76,7,16,367
+S053,Supplier_S053,Mexico,North America,6398,96,11,20,753
+S054,Supplier_S054,Spain,Europe,1041,90,13,5,1961
+S055,Supplier_S055,United States,North America,6256,68,7,6,1184
+S056,Supplier_S056,Czech Republic,Europe,7284,86,5,17,917
+S057,Supplier_S057,France,Europe,5849,89,15,5,1086
+S058,Supplier_S058,France,Europe,936,73,7,1,1568
+S059,Supplier_S059,Ireland,Europe,5279,89,5,14,509
+S060,Supplier_S060,Germany,Europe,9365,95,7,16,1273
