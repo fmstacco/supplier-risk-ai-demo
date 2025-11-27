@@ -122,19 +122,47 @@ Once the structured dataset exists, AI tools can:
 - Suggest dual sourcing strategies  
 
 ---
-
 ## 🏗️ 7. High-Level Architecture
 
 ```text
-SAP / BI (source queries)
-        ↓
-Data Engineering (CSV / views)
-        ↓
-Python Pipeline (risk scoring)
-        ↓
-AI Layer (optional)
-        ↓
-Dashboard / Alerts (Power BI, Tableau)
+            ┌─────────────────────────┐
+            │        SAP / ERP        │
+            │  - Supplier Master      │
+            │  - Material Master      │
+            │  - Purchase History     │
+            └─────────────┬───────────┘
+                          │  Queries / API
+                          ▼
+            ┌─────────────────────────┐
+            │ Data Engineering / BI   │
+            │  - ETL / Cleaning       │
+            │  - CSV Exports          │
+            │  - Scheduled jobs       │
+            └─────────────┬───────────┘
+                          │ Clean datasets
+                          ▼
+            ┌─────────────────────────┐
+            │  Python Risk Engine     │
+            │  - Merge datasets       │
+            │  - Score suppliers      │
+            │  - Dependency flags     │
+            │  - Risk classification  │
+            └─────────────┬───────────┘
+                          │ Enriched table
+                          ▼
+            ┌─────────────────────────┐
+            │ Dashboards (BI Tools)   │
+            │  - Power BI             │
+            │  - Tableau              │
+            └─────────────┬───────────┘
+                          │
+                          ▼
+            ┌─────────────────────────┐
+            │ AI Layer (Optional)     │
+            │  - GPT summaries        │
+            │  - Risk explanations    │
+            │  - Early alerts         │
+            └─────────────────────────┘
 
 ## ▶️ 8. How to Run
 
@@ -149,7 +177,6 @@ relationship = pd.read_csv("https://raw.githubusercontent.com/fmstacco/supplier-
 logistics = pd.read_csv("https://raw.githubusercontent.com/fmstacco/supplier-risk-ai-demo/main/data/logistics_data.csv")
 
 ---
-
 ## ✅ **Item 9 — Next Steps (Roadmap)**
 ```markdown
 ## 🚀 9. Next Steps (Roadmap)
