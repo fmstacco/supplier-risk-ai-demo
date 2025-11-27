@@ -41,21 +41,19 @@ The objective is to reduce this dramatically using data consolidation + automate
 
 ## 🗂️ 3. Repository Structure
 
+```text
 supplier-risk-ai-demo/
-│
 ├── data/
 │   ├── components_master.csv
 │   ├── suppliers_master.csv
 │   ├── supplier_component_relationship.csv
 │   └── logistics_data.csv
-│
 ├── notebooks/
 │   └── supplier_risk_demo.ipynb
-│
 ├── docs/
 │   ├── process_flow.md
 │   └── data_requirements.md
----
+└── README.md
 
 ## 📄 4. Documentation
 
